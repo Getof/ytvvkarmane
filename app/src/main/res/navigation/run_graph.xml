@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/run_graph"
+    app:startDestination="@id/addRunFragment">
+
+    <fragment
+        android:id="@+id/addRunFragment"
+        android:name="ru.getof.ytvvkarmane.RunFragments.AddRunFragment"
+        android:label="fr_add_run"
+        tools:layout="@layout/fr_add_run" />
+    <fragment
+        android:id="@+id/paymentFragment"
+        android:name="ru.getof.ytvvkarmane.RunFragments.PaymentFragment"
+        android:label="fr_payment_run"
+        tools:layout="@layout/fr_payment_run" />
+</navigation>

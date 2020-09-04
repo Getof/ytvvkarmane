@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/auth_graph"
+    app:startDestination="@id/signInFragment">
+
+    <fragment
+        android:id="@+id/signInFragment"
+        android:name="ru.getof.ytvvkarmane.AuthFragments.SignInFragment"
+        android:label="fr_sign_in"
+        tools:layout="@layout/fr_sign_in" />
+    <fragment
+        android:id="@+id/signUpFragment"
+        android:name="ru.getof.ytvvkarmane.AuthFragments.SignUpFragment"
+        android:label="fr_sign_up"
+        tools:layout="@layout/fr_sign_up" />
+</navigation>

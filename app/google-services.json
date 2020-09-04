@@ -1,0 +1,64 @@
+{
+  "project_info": {
+    "project_number": "442398193738",
+    "firebase_url": "https://ytv-v-karmane.firebaseio.com",
+    "project_id": "ytv-v-karmane",
+    "storage_bucket": "ytv-v-karmane.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:442398193738:android:0a876171f157b5ae",
+        "android_client_info": {
+          "package_name": "ru.getof.ytvlive"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "442398193738-ctbt47k4e3e1ei7nu7738mmv0d7fg1pl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "ru.getof.ytvlive",
+            "certificate_hash": "02a79c4e16318927d2a815f75c608d71652b6640"
+          }
+        },
+        {
+          "client_id": "442398193738-8h0nb1qr5vh7qmhq0q4t7i0q9em4djlg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "ru.getof.ytvlive",
+            "certificate_hash": "4f4f0296fadbc88726f9a16ebb4c6a0d0ff20684"
+          }
+        },
+        {
+          "client_id": "442398193738-h7sqp77tpc7v0ndvsda6gu2ohvj7sddo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "ru.getof.ytvlive",
+            "certificate_hash": "320422954e78f5e8bd7b2ef8159cd8b51965185e"
+          }
+        },
+        {
+          "client_id": "442398193738-3a1ovo12calrdn4qa54lcqo8gj6d8lh0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBcxbeftywSjFsjzObm5BGbCsciOAEBevU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "442398193738-3a1ovo12calrdn4qa54lcqo8gj6d8lh0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

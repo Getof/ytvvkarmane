@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="8dp">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:text="Текст объявления:"
+        android:textColor="@color/primaryTextColor"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/info_run"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/edittext_corner_back"
+        android:ems="10"
+        android:gravity="start|top"
+        android:hint="Текст объявления должен обязательно содержать номер телефона..."
+        android:inputType="textMultiLine"
+        android:lines="5"
+        android:padding="4dp"
+        android:textColor="@color/primaryTextColor"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <TextView
+        android:id="@+id/info_sum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/edittext_corner_back"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:text="0"
+        android:textColor="@color/secondaryDarkColor"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/info_run" />
+
+    <TextView
+        android:id="@+id/info_day"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="8dp"
+        android:background="@drawable/edittext_corner_back"
+        android:paddingLeft="16dp"
+        android:paddingTop="8dp"
+        android:paddingRight="16dp"
+        android:paddingBottom="8dp"
+        android:text="1"
+        android:textColor="@color/primaryTextColor"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/btn_day_up"
+        app:layout_constraintEnd_toStartOf="@+id/btn_day_up"
+        app:layout_constraintTop_toTopOf="@+id/btn_day_up" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="Кол-во дней"
+        android:textColor="@color/thirdColor"
+        android:textSize="10sp"
+        app:layout_constraintEnd_toEndOf="@+id/info_day"
+        app:layout_constraintStart_toStartOf="@+id/info_day"
+        app:layout_constraintTop_toBottomOf="@+id/info_day" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="К оплате, руб."
+        android:textColor="@color/thirdColor"
+        android:textSize="10sp"
+        app:layout_constraintEnd_toEndOf="@+id/info_sum"
+        app:layout_constraintStart_toStartOf="@+id/info_sum"
+        app:layout_constraintTop_toBottomOf="@+id/info_sum" />
+
+    <Button
+        android:id="@+id/buttonPayment"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/auth_btn"
+        android:text="Оплатить объявление"
+        android:textColor="@color/primaryTextColor"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageButton
+        android:id="@+id/btn_day_up"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/info_run"
+        app:srcCompat="@drawable/ic_btn_up" />
+
+    <ImageButton
+        android:id="@+id/btn_day_down"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        app:layout_constraintBottom_toBottomOf="@+id/btn_day_up"
+        app:layout_constraintEnd_toStartOf="@+id/info_day"
+        app:layout_constraintTop_toTopOf="@+id/btn_day_up"
+        app:srcCompat="@drawable/ic_btn_down" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

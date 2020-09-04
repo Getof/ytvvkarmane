@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hint_pass">Пароль</string>
+    <string name="btn_registration"><![CDATA[<u>Регистрация</u>]]></string>
+    <string name="PoliceChecked">Даю согласие на обработку персональных данных в соответствии с законодательством России и Политики конфиденциальности.</string>
+</resources>

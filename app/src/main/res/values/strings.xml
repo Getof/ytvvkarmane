@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">ЮТВ в кармане</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Юргинская студия телевидения</string>
+    <string name="nav_header_subtitle">т. 4-09-09, http://юргатв.рф</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_sign_in">Вход/Регистрация</string>
+    <string name="action_sign_out">Выход</string>
+
+    <string name="menu_help">Задать вопрос</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+    <string name="title_activity_new_video">NewVideo</string>
+    <string name="error_player">Ошибка плеера</string>
+    <string name="hint_login">Ваш E-mail</string>
+    <string name="hint_pass">Пароль</string>
+    <string name="btn_registration"><![CDATA[<u>Регистрация</u>]]></string>
+    <string name="reg_title2"><![CDATA[Нажимая на кнопку \"Регистрация\", я даю согласие на обработку персональных данных.]]></string>
+    <string name="PoliceChecked">Даю согласие на обработку персональных данных в соответствии с законодательством России и Политикой конфиденциальности.</string>
+    <string name="hint_name">Ваше имя</string>
+    <string name="chat_frag_text">Для входа в ленту \"Для сюжета\" вы должны авторизоваться в приложении.</string>
+    <string name="help_run_text">Здесь вы сможете не выходя из дома подать объявление в бегущую строку на каналах РЕН, ЧЕ и оплатить его.\n\n
+                               Оплату вы можете произвести с помощью пластиковых карт и электронных денег.\n\n
+                               Длина объявления не должна превышать 200 символов.\n\n
+                               Частные объявления и объявления рубрики \"Требуются\" дублируются в ближайшем номере газет \"Новая газета.Версия\" и \"Резонанс-Ю\".\n\n
+                               Внимание! Объявления без контактов размещаться не будут!\n\n
+                               Справки по телефону 8 (384) 514-09-09.
+                                </string>
+
+</resources>
